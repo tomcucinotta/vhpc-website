@@ -30,5 +30,5 @@ jobs:
           #   keep_files: true
           user_name: vhpc
           user_email: ananos@nubificus.co.uk
-          publish_branch: draft
+          publish_branch: main
         #   cname: example.com
