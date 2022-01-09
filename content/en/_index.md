@@ -123,7 +123,7 @@ demonstrations.
 
 ### Organization
 
-Michael Alexander (chair), University of Vienna <mfalexand@gmail.com>
+Michael Alexander (chair), BOKU Vienna <malexand@boku.ac.at>
 
 Anastassios Nanos (co-chair), Nubificus Ltd. <ananos@nubificus.co.uk>
 
