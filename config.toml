@@ -1,5 +1,5 @@
-title = "16th Workshop on Virtualization in High-Performance Cloud Computing"
-baseURL = "https://vhpc.org"
+title = "17th Workshop on Virtualization in High-Performance Cloud Computing"
+baseURL = "https://vhpc.github.io"
 languageCode = "en-us"
 theme = "ananke"
 #themesDir = "../.."
@@ -13,7 +13,7 @@ enableRobotsTXT = true
 
 [languages]
   [languages.en]
-    title = "16th Workshop on Virtualization in High-Performance Cloud Computing"
+    title = "17th Workshop on Virtualization in High-Performance Cloud Computing"
     weight = 1
     contentDir = "content/en"
   #[languages.fr]
