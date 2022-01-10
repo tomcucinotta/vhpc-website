@@ -15,7 +15,7 @@ April 19th, 2022 Paper submission deadline (Springer LNCS)
 
 May 3, 2022 - Acceptance notification
 
-June 2th, 2022 - Workshop Day
+June 2nd, 2022 - Workshop Day
 
 July 10th, 2022 - Camera-ready version due
 
@@ -28,11 +28,12 @@ seamless fashion to support the highly dynamic and heterogeneous workloads and
 hosted applications customers deploy. Similarly, HPC environments have been
 increasingly adopting techniques that enable flexible management of vast
 computing and networking resources, close to marginal provisioning cost, which
-is unprecedented in the history of scientific and commercial computing. Most
-recently, Function as a Service (Faas) and Serverless computing, utilizing
-lightweight VMs-containers widens the spectrum of applications that can be
+is unprecedented in the history of scientific and commercial computing. More
+recently, Function as a Service (Faas) and Serverless computing, leveraging
+on lightweight virtualizaton and containerization solutions,
+widens the spectrum of applications that can be
 deployed in a cloud environment, especially in an HPC context. Here,
-HPC-provided services can be become accessible to distributed workloads outside
+HPC-provided services can become accessible to distributed workloads outside
 of large cluster environments. 
 
 Various virtualization-containerization technologies contribute to the overall
@@ -43,8 +44,8 @@ fully operating virtual machine (VM) with a very short downtime, enables novel
 and dynamic ways to manage physical servers; OS-­level virtualization (i.e.,
 containerization), with its capability to isolate multiple user­-space
 environments and to allow for their co­existence within the same OS kernel,
-promises to provide many of the advantages of machine virtualization with high
-levels of responsiveness and performance; lastly, unikernels provide for many
+promises to provide many of the advantages of machine virtualization with bare-metal
+responsiveness and performance; lastly, unikernels provide for many
 virtualization benefits with a minimized OS/library surface. I/O Virtualization
 in turn allows physical network interfaces to take traffic from multiple VMs or
 containers; network virtualization, with its capability to create logical
@@ -56,15 +57,15 @@ furthermore enabling virtualization of HPC infrastructures.
 
 The VHPC program committee solicits original, high-quality submissions related
 to virtualization across the entire software stack with a special focus on the
-intersection of HPC, containers-virtualization and the cloud.
+intersection of HPC, containers-virtualization and cloud computing.
 
 Major Topics: 
 - HPC on Containers and VMs
 - Containerized applications with OS-level virtualization
 - Lightweight applications with Unikernels
-- HP-as-a-Service
+- HPC-as-a-Service
 
-each major topic encompassing design/architecture, management, performance
+Each major topic encompasses aspects related to design/architecture, management, performance
 management, modeling and configuration/tooling:
 
 Design / Architecture:
@@ -84,7 +85,7 @@ Design / Architecture:
 - ARM-based hypervisors, ARM virtualization extensions
 
 Management:
-- Container and VM management for HPC and cloud environments
+- Container, VM and data management for HPC and cloud environments
 - HPC services integration, services to support HPC 
 - Service and on-demand scheduling & resource management
 - Dedicated workload management with VMs or containers
@@ -99,12 +100,14 @@ Performance Measurements and Modeling:
 - Scalability analysis of VMs and/or containers at large scale
 - Performance measurement, modeling and monitoring of virtualized/cloud workloads
 - Virtualization in supercomputing environments, HPC clusters, HPC in the cloud
+- Energy-efficient deployment of high-performance, ultra-low latency and real-time workloads in cloud infrastructures
+- Modeling and control of end-to-end performance for parallel & distributed cloud/HPC applications
 
 Configuration / Tooling:
 - Tool support for unikernels: configuration/build environments, debuggers, profilers
 - Job scheduling/control/policy and container placement in virtualized environments
 - Operating MPI in containers/VMs and Unikernels  
-- Software defined networks and network virtualization
+- Software defined networking (SDN) and network function virtualization (NFV)
 - GPU virtualization operationalization
 
 
@@ -213,7 +216,7 @@ Submission link: https://edas.info/newPaper.php?c=29178
 Lightning Talks are non-paper track, synoptical in nature and are strictly
 limited to 5 minutes.  They can be used to gain early feedback on ongoing
 research, for demonstrations, to present research results, early research
-ideas, perspectives and positions of interest to the community. Submit abstract
+ideas, perspectives and positions of interest to the community. Submit abstracts
 via the main submission link.
 
 
